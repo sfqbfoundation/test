@@ -1,0 +1,28 @@
+# MarsM Project — Official Stellar TOML (SEP-0001)
+VERSION = "2.0.0"
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+ACCOUNTS = [
+  "GBL27HDAR7QOPYDOVGLYF3JG5WZ2IKX2633GRFGW43JTVBAPZM6KO5IG"
+]
+
+[DOCUMENTATION]
+ORG_NAME        = "MarsM Project"
+ORG_DBA         = "MarsM"
+ORG_URL         = "https://sfqbfoundation.github.io"
+ORG_LOGO        = "https://raw.githubusercontent.com/sfqbfoundation/MARSM/main/MARSM.png"
+ORG_DESCRIPTION = """
+MarsM is a visionary project developed on the Stellar network — focused on extracting and tokenizing
+precious cosmic resources such as gold, silver, platinum, palladium, iridium, rhodium, and diamond.
+Each mission brings real cosmic value back to Earth through blockchain transparency.
+"""
+
+[[CURRENCIES]]
+code = "MARSM"
+issuer = "GBL27HDAR7QOPYDOVGLYF3JG5WZ2IKX2633GRFGW43JTVBAPZM6KO5IG"
+name   = "MarsM"
+desc   = "Main token powering the MarsM interplanetary resource economy."
+image  = "https://raw.githubusercontent.com/sfqbfoundation/MARSM/main/MARSM.png"
+status = "live"
+anchor_asset_type = "crypto"
+display_decimals = 7
