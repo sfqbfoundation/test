@@ -1,7 +1,3 @@
-# MarsM Project — Official Stellar TOML (SEP-0001)
-VERSION = "2.0.0"
-NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
-
 ACCOUNTS = [
   "GBL27HDAR7QOPYDOVGLYF3JG5WZ2IKX2633GRFGW43JTVBAPZM6KO5IG"
 ]
@@ -26,3 +22,24 @@ image  = "https://raw.githubusercontent.com/sfqbfoundation/MARSM/main/MARSM.png"
 status = "live"
 anchor_asset_type = "crypto"
 display_decimals = 7
+
+ACCOUNTS=[
+  "GDE5VZCCPBF54GSK5GEOYIY5FURI25BQRXKNMROM4OOQNNUZPXVPBAYV"
+  ]
+
+[DOCUMENTATION]
+ORG_NAME="MARSM"
+ORG_URL="https://sfqbfoundation.github.io"
+ORG_DESCRIPTION="MarsM is a visionary project developed on the Stellar network — focused on extracting and tokenizing."
+
+ORG_LOGO="https://dbsstellar.com/logo.png"
+
+[[CURRENCIES]]
+code="MARSM"
+name="MARSM"
+status="live"
+display_decimals=2
+issuer="GBL27HDAR7QOPYDOVGLYF3JG5WZ2IKX2633GRFGW43JTVBAPZM6KO5IG"
+anchor_asset_type="crypto"
+desc="MarsM is a visionary project developed on the Stellar network — focused on extracting and tokenizing."
+image="https://dbsstellar.com/ydbs.png"
